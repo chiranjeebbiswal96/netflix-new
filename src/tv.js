@@ -25,7 +25,7 @@ function Tvshows() {
     return (
         <>
         <h2 style={{color:"white"}} > Tv Shows</h2>
-        <div className="rmnc">
+        <div className="item_wrapper">
            { tvshows.map((info)=>{
             
                 return (<img  width="200px" height="200px" src={imgUrl+info.poster_path } alt=""/>)
