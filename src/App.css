@@ -8,6 +8,11 @@ body{
     font-size: 16px;
     
 }
+.link{
+    margin: 20px;
+    color: white;
+    text-decoration: none;  
+}
 .active{
     margin: 20px;
     color: white;
